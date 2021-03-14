@@ -1,5 +1,5 @@
 # wedding
-site wedding - Bárbara and Alestan
+site wedding - Alestan and Bárbara
 
 Activites 
 
