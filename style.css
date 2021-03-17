@@ -1,5 +1,4 @@
 body {
-    font-feature-settings: "kern","liga","pnum";
     line-height: 1.5;
     background-color: #fff;
     margin: 0;
@@ -13,25 +12,31 @@ body {
     background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
     padding-top: 10px;
     padding-bottom: 50px;
-    margin-top: -10px;
-    text-transform: lowercase;
-    margin: 0 0 .75em;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0.75em;
     margin-left: 0px;
-    font-family: 'Surveyor Display','Surveyor Display A','Surveyor Display B',serif;
     font-size: 3rem;
-    margin-bottom: 0;
-    margin: 0;
+}
+
+.comeco h1 {
+    text-transform: lowercase;
+    font-family: 'Surveyor Display','Surveyor Display A','Surveyor Display B',serif;
+    font-weight: 500;
 }
 
 .frase1 {
     font-size: 23px;
     letter-spacing: .2em;
     text-align: center;
+    text-transform: uppercase;
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
     font-weight: 500;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 ul {
@@ -55,6 +60,7 @@ li {
 
 li a {
     transition: color .3s linear;
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
     text-align: center;
     display: block;
     color: rgb(0, 0, 0);
@@ -73,18 +79,44 @@ li a:hover {
 
 .event_img {
     margin-top: 50px;
-    width: 200px;
+    width: 100px;
 }
 
 .QUANDO {
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.2rem;
+    font-weight: 300;
     letter-spacing: .3em;
 }
 
 .DATE {
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+}
+
+.DATE p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.ONDE {
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .3em;
+}
+
+.LISTA {
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: .3em;
+}
+
+
+.sitio{
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
 }
 
 .underline {
@@ -94,3 +126,55 @@ li a:hover {
     border-bottom-style: solid;
     border-bottom-color: #333;
 }
+
+
+.link-button.golden, input[type=submit].link-button.golden {
+    color: #b18f3a;
+    border-color: #b18f3a;
+}
+
+.link-button.golden {
+    background-color: #fff;
+    color: #b18f3a;
+}
+
+.link-button, input[type=submit].link-button {
+    background: 0 0;
+    border: 2px solid #fff;
+    border-radius: 0;
+    color: #b18f3a;
+    background-color: #b18f3a;
+    display: inline-block;
+    font-size: inherit;
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+    font-weight: 600;
+    margin: 1em 0;
+    padding: .3em .7em!important;
+    -webkit-appearance: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: .1em;
+}
+
+.link-button.golden:hover {
+    transition: color .2s linear;
+    background-color:  #b18f3a;
+    color: #fff;
+}
+
+.dia {
+    letter-spacing: .1em;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+}
+
+.estrada {
+    letter-spacing: .1em;
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+}
+
