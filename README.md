@@ -3,7 +3,7 @@ site wedding - Alestan and Bárbara
 
 Activites 
 
-- [ ] draw layout
+- [x] draw layout
 - [ ] css structure
 - [ ] html structure
 - [ ] JS maybe for forms
