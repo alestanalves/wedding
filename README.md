@@ -5,7 +5,7 @@ Activites
 
 - [x] draw layout
 - [ ] css structure
-- [ ] html structure
+- [x] html structure
 - [ ] JS maybe for forms
 - [ ] QR CODE to confirm
 - [ ] form to confirm
