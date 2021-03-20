@@ -16,4 +16,3 @@ Activites
 - [ ] countdown to the big day
 - [ ] our history
 - [ ] save the date
-
