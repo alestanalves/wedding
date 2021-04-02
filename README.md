@@ -4,7 +4,7 @@ site wedding - Alestan and Bárbara
 Activites 
 
 - [x] draw layout
-- [ ] css structure
+- [x] css structure
 - [x] html structure
 - [ ] JS maybe for forms
 - [ ] QR CODE to confirm
