@@ -9,7 +9,7 @@ Activites
 - [ ] JS maybe for forms
 - [ ] QR CODE to confirm
 - [ ] form to confirm
-- [ ] Google Maps 
+- [x] Google Maps 
 - [ ] list of presents (with QR CODE)
 - [ ] Grafana
 - [ ] Slack API (msg confirm)
