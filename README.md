@@ -6,7 +6,6 @@ Activites
 - [x] draw layout
 - [x] css structure
 - [x] html structure
-- [ ] JS maybe for forms
 - [ ] QR CODE to confirm
 - [ ] form to confirm
 - [x] Google Maps 
