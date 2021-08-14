@@ -39,12 +39,16 @@ body {
     margin-inline-end: 0px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgb(255, 255, 255);
+}
+
+.nav-list {
+    list-style-type: none;
+    overflow: hidden;
     justify-content: space-around;
     display: flex;
     text-align: center;
@@ -53,12 +57,12 @@ ul {
     width: 100%;
 }
 
-li {
+.nav-list li {
     float: left;
     text-align: center;
 }
 
-li a {
+.nav-list a {
     transition: color .3s linear;
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
     text-align: center;
@@ -72,9 +76,22 @@ li a {
     text-align: center;
 }
 
-li a:hover {
+.nav-list li a:hover {
     background: 0 0;
     color: #b18f3a;
+}
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    margin: 8px;
 }
 
 .event_img {
@@ -178,3 +195,79 @@ li a:hover {
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
 }
 
+
+.trajes {
+    color: #fff;
+    background-color: #ddaf94;
+    background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0.75em;
+    margin-left: 0px;
+    font-size: 3rem;
+}
+
+.trajes h1 {
+    text-transform: lowercase;
+    font-family: 'Surveyor Display','Surveyor Display A','Surveyor Display B',serif;
+    font-weight: 500;
+}
+
+.trajes1 {
+    font-size: 23px;
+    letter-spacing: .2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+    font-weight: 500;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+@media (max-width: 999px){
+    body {
+        overflow-x: hidden;
+    }
+
+    .nav-list {
+        position: absolute;
+        top: 8vh;
+        right: 0;
+        width: 50vw;
+        height: 92vh;
+        background: #fff;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transform: translateX(100%);
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+
+    .nav-list.active {
+        transform: translateX(0);
+    }
+}
+
+
+/* @media only screen and (min-width: 600px) {
+    ul {
+        width: 200px;
+        margin: 16px 0;
+        padding: 0;
+    }
+    li a {
+        display: block;
+        padding: 8px 16px;
+    }
+} */
