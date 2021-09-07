@@ -229,7 +229,7 @@ nav {
     margin-inline-end: 0px;
 }
 
-@media (max-width: 999px){
+@media (max-width: 870px){
     body {
         overflow-x: hidden;
     }
@@ -257,6 +257,28 @@ nav {
     .nav-list.active {
         transform: translateX(0);
     }
+
+
+    .comeco h1 {
+        font-size: 100px;
+        font-weight: 600;
+        font-family: 'MonteCarlo', cursive;
+    }
+
+    .frase1 {
+        font-size: 15px;
+        letter-spacing: .2em;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
+        font-weight: 500;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
 }
 
 
