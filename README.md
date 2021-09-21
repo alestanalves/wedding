@@ -14,5 +14,4 @@ Activites
 - [ ] Slack API (msg confirm)
 - [ ] countdown to the big day
 - [ ] our history
-- [ ] save the date
-- 
+- [x] save the date
