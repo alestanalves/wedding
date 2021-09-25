@@ -10,8 +10,6 @@ Activites
 - [ ] form to confirm
 - [x] Google Maps 
 - [ ] list of presents (with QR CODE)
-- [ ] Grafana
-- [ ] Slack API (msg confirm)
 - [ ] countdown to the big day
 - [ ] our history
 - [x] save the date
