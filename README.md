@@ -9,8 +9,8 @@ Activites
 - [ ] QR CODE to confirm
 - [ ] form to confirm
 - [x] Google Maps 
-- [ ] list of presents (with QR CODE)
+- [ ] lista de presentes (with QR CODE)
 - [ ] countdown to the big day
 - [ ] our history
-- [x] save the date
-
+- [ ] save the date
+- [ ] QR Code to site
