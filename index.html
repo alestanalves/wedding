@@ -16,13 +16,18 @@
 </head>
 <body>
     <nav>
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
         <ul class="nav-list">
             <li><a href="#HOME">HOME</a></li>
+            <li><a href="#LUGAR">ONDE</a></li>
+            <li><a href="#DATA">DATA</a></li>
+            <li><a href="#LISTA">LISTA DE PRESENTES</a></li>
+        </ul>
+    </nav>
+    <nav id="nav">
+        <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
             <li><a href="#LUGAR">ONDE</a></li>
             <li><a href="#DATA">DATA</a></li>
             <li><a href="#LISTA">LISTA DE PRESENTES</a></li>
@@ -47,6 +52,7 @@
         <p>
             <a class="link-button golden" target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&tmeid=MzdhcTdsZHZudTcyZHZrMGNsYjE2amV0OHUgYWxlc3RhbmFsdmVzQG0&tmsrc=alestanalves%40gmail.com">COLOQUE NO CALENDARIO</a>
         </p>
+        <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MzdhcTdsZHZudTcyZHZrMGNsYjE2amV0OHUgYWxlc3RhbmFsdmVzQG0&amp;tmsrc=alestanalves%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_pt-BR.gif"></a>
         <div id="LUGAR" class="ONDE">
             <img class="event_img" src="img/place_black_24dp.svg" alt="img for event">
             <h2>ONDE</h2>
@@ -68,7 +74,7 @@
         </div>
         <h3 class="sitio">Escolha o presente</h3>
         <p>
-            <a class="link-button golden" target="_blank" href="https://www.google.com/maps/place/Estr.+de+Sapopemba,+5285+-+Quarta+Divis%C3%A3o,+Ribeir%C3%A3o+Pires+-+SP/@-23.6710606,-46.3822648,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce6d95a09d5343:0xbdd2579f524f3e00!8m2!3d-23.6710606!4d-46.3800761">CLIQUE AQUI</a>
+            <a class="link-button golden" target="_blank" href="http://finalfeliz.de/barbara-alestan">CLIQUE AQUI</a>
         </p>
     </div>
     <div id="HOME" class="trajes">
@@ -93,5 +99,6 @@
     </div>
     <h3 class="sitio">Padrinhos: Camisa e calça social com tenis branco</h3>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
