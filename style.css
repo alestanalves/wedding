@@ -230,6 +230,10 @@ body {
     margin-inline-end: 0px;
 }
 
+script {
+    display: none;
+}
+
 @media (max-width: 600px){
     .nav-list {
         display: none;
@@ -276,7 +280,7 @@ body {
       }
       #nav.active #menu {
         color: #fff;
-        height: calc(20vh - 70px);
+        height: calc(30vh - 70px);
         visibility: visible;
         overflow-y: auto;
         font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
