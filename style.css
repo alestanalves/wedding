@@ -21,7 +21,7 @@ body {
 
 .comeco h1 {
     font-size: 150px;
-    font-weight: 600;
+    font-weight: 300;
     font-family: 'MonteCarlo', cursive;
     overflow: hidden;
 }
@@ -38,6 +38,10 @@ body {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+}
+
+br {
+    display: none;
 }
 
 #nav {
@@ -135,6 +139,7 @@ body {
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
     font-size: 1.2rem;
     font-weight: 300;
+    padding: 10px;
 }
 
 .underline {
@@ -222,7 +227,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
-    font-weight: 500;
+    font-weight: 100;
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -235,6 +240,11 @@ script {
 }
 
 @media (max-width: 600px){
+
+    br {
+        display: block;
+    }
+
     .nav-list {
         display: none;
     }
@@ -247,9 +257,10 @@ script {
 
     .comeco h1 {
         font-size: 100px;
-        font-weight: 600;
+        font-weight: 300;
         overflow-x: hidden;
         font-family: 'MonteCarlo', cursive;
+        line-height: 90%; 
     }
 
     .frase1 {
