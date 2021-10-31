@@ -256,14 +256,19 @@ script {
         font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
     }
 
+    .comeco {
+        color: rgb(255, 255, 255);
+        background-color: #F6A8A7;
+        background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
+        /* background-image: url(img/Barbara&Alestan_Sessão-celular2.jpg);  */
+    } 
+    
     .comeco h1 {
-        color: rgb(0, 0, 0);
         font-size: 100px;
         font-weight: 300;
         overflow-x: hidden;
         font-family: 'MonteCarlo', cursive;
         line-height: 90%; 
-        background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
     }
 
     .frase1 {
