@@ -257,11 +257,13 @@ script {
     }
 
     .comeco h1 {
+        color: rgb(0, 0, 0);
         font-size: 100px;
         font-weight: 300;
         overflow-x: hidden;
         font-family: 'MonteCarlo', cursive;
         line-height: 90%; 
+        background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
     }
 
     .frase1 {
