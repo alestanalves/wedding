@@ -41,7 +41,7 @@ body {
     margin-inline-end: 0px;
 }
 
-br {
+.ANDE {
     display: none;
 }
 
@@ -242,7 +242,7 @@ script {
 
 @media (max-width: 600px){
 
-    br {
+    .ANDE {
         display: block;
     }
 
@@ -262,7 +262,7 @@ script {
         background-image: url(https://s3.amazonaws.com/ameliaandsteveassets/topo.svg);
         /* background-image: url(img/Barbara&Alestan_Sessão-celular2.jpg);  */
     } 
-    
+
     .comeco h1 {
         font-size: 100px;
         font-weight: 300;
