@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="img/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="img/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="stylesheet" href="confirm.css">
+    <title>Confirme sua presença</title>
+</head>
+<body>
+    <form  action="https://formspree.io/f/xzbylepg" method="POST">
+        <input id="input-1" type="text" name="nome" placeholder="Seu nome" required autofocus/>
+        <label for="input-1">
+          <span class="label-text">nome completo</span>
+          <span class="nav-dot"></span>
+          <div class="signup-button-trigger">Confirme sua presença</div>
+        </label>
+        <input id="input-2" name="qtde_pessoas" type="text" placeholder="Ex: 2" required />
+        <label for="input-2">
+          <span class="label-text">Quantas pessoas vão com você?</span>
+          <span class="nav-dot"></span>
+        </label>
+        <input id="input-3" type="text" placeholder="Ex: Maria, José, Bárbara, Alessandra" required />
+        <label for="input-3">
+          <span class="label-text">Nome dos acompanhantes (separados por ",")</span>
+          <span class="nav-dot"></span>
+        </label>
+        <input id="input-4" type="text" placeholder="(11) 95322-9357" required />
+        <label for="input-4">
+          <span class="label-text">Celular (WhatsApp)</span>
+          <span class="nav-dot"></span>
+        </label>
+        <input id="input-5" name="email" type="email" placeholder="email@address.com" required />
+        <label for="input-5">
+          <span class="label-text">E-mail</span>
+          <span class="nav-dot"></span>
+        </label>
+        <button type="submit">Confirme sua presença</button>
+        <p class="tip">Pressione Tab ou Enter</p>
+        <div class="signup-button">Confirme sua presença</div>
+      </form>
+</body>
+</html>
