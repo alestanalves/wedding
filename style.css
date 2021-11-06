@@ -441,8 +441,8 @@ script {
     }
 
     .slider {
-        height: 375px;
-        width: 375px;
+        height: 330px;
+        /* width: 200px; */
     }
 
     .ANDE {
