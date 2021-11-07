@@ -489,6 +489,7 @@ script {
     }
 
     #menu {
+        padding: 10px;
         display: block;
         position: absolute;
         width: 100%;
@@ -502,7 +503,7 @@ script {
       }
       #nav.active #menu {
         color: #fff;
-        height: calc(30vh - 70px);
+        height: calc(20vh - 50px);
         visibility: visible;
         overflow-y: auto;
         font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
