@@ -436,6 +436,11 @@ script {
 
 @media (max-width: 600px){
 
+    a {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
     body {
         overflow-x: hidden;
     }
@@ -509,9 +514,9 @@ script {
         font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
         text-decoration: none;
       }
-      #menu a {
+      #menu a { 
+        padding: 0px;
         color: #fff;
-        padding: 1rem 0;
         font-family: brandon-grotesque,'Brandon Grotesque',Futura,sans-serif;
         text-decoration: none;
         margin: 0 1rem;
